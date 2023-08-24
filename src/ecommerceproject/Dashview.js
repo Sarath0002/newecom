@@ -1,9 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-
 import "../ecommerceproject/datasfile/datafile.css";
 import { useNavigate, useParams } from "react-router-dom";
-
 import { Rating } from "@mui/material";
 
 const Dashview = (props) => {
