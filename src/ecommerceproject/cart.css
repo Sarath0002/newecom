@@ -1,0 +1,36 @@
+.logobtn {
+  font-size: 25px;
+  color: #056763;
+  cursor: pointer;
+}
+.remove {
+  font-size: 25px;
+  color: rgb(224, 49, 43);
+  cursor: pointer;
+}
+.logobtn:hover {
+  font-size: 30px;
+}
+.remove:hover {
+  font-size: 30px;
+}
+.tcont {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 41px;
+}
+.card {
+  padding: 20px;
+}
+.sp {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 64px;
+}
+.h {
+  display: flex;
+}
+.cbtn {
+  background-color: darkcyan;
+  color: #ffffff;
+}

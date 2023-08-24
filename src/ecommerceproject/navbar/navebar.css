@@ -1,0 +1,102 @@
+.logo {
+  height: 50px;
+  width: 470px;
+}
+
+.back {
+  background-color: #093132;
+  /* background: rgba(0, 0, 0, 0.1) */
+  box-shadow: none;
+}
+.setting {
+  color: rgb(0, 161, 210);
+}
+.btnhov {
+  color: chocolate;
+  transition: 0.4s ease-in-out;
+}
+.btnhov:hover {
+  color: cadetblue;
+  font-size: 20px;
+}
+.navform {
+  background-color: #093132;
+  width: 40%;
+}
+.navinput {
+  height: 35px;
+  line-height: 28px;
+  padding: 0 1rem;
+  width: 60%;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  outline: none;
+  /* background-color: #ffffff; */
+  color: #0d0c22;
+  box-shadow: 0 0 5px #fefefe, 0 0 0 5px #f5f5f5eb;
+  transition: 0.3s ease;
+  position: relative;
+}
+.navinput:focus {
+  height: 30px;
+  width: 100%;
+}
+.searchicon {
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  left: 32%;
+  bottom: 26px;
+}
+/* .navinput:hover .searchicon {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  left: 0%;
+} */
+.css-4yktcr-MuiSvgIcon-root {
+  font-size: 50px;
+}
+.toglediv {
+  display: flex;
+  align-items: center;
+  margin-left: 183px;
+}
+.togle {
+  margin-right: 36px;
+  font-size: 35px;
+  color: #6bb0ff;
+  cursor: pointer;
+}
+
+.set {
+  margin-left: 0px;
+}
+.seting:hover {
+  border: none;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cnvs {
+  background-color: #000000;
+}
+#cnvshead {
+  background-color: #346667;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .logo {
+    height: 60px;
+    width: 146px;
+  }
+}
